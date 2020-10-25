@@ -4,10 +4,13 @@
 <p>Logfiles are stored in logs/ at the root of the project. Each log contains one day, and each line is a json-string
 containing information about a single log.</p>
 
-<h3>Depedencies</h3>
+<h3>Dependencies</h3>
 
-```pip install -r requirements.txt```
-
+```
+curl https://get.pimoroni.com/i2c | bash           # pi config
+sudo apt install python-smbus python3-smbus
+pip install -r requirements.txt
+```
 <h3>Running</h3>
 <p>Run the script</p>
 

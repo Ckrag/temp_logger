@@ -1,6 +1,5 @@
 import json
 import os.path
-import subprocess
 import time
 import traceback
 import bme680
